@@ -8,7 +8,7 @@
   "config": {
     "serviceURL": "",
     "serviceName": "Zulip",
-    "message": "This is a random info text that is shown when adding/editing a service",
+    "message": "",
     "popup": [],
     "hasNotificationSound": true,
     "hasTeamID": true,
