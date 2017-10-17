@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Evernote",
   "main": "index.js",
-  "author": "Yitch <mr.yitch@gmail.com>",
+  "author": "Adam Birds <adam.birds@adbtechltd.co.uk>",
   "license": "MIT",
   "config": {
     "serviceURL": "https://www.evernote.com/Login.action",
