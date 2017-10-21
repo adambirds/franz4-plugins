@@ -1,9 +1,8 @@
 module.exports = (Franz, options) => {
-  function getMessages() {
-    const count = $(".unread-rooms-mode .unread").length;
+    function getMessages() {
+        const allMessages = Math.round(document.querySelectorAll("#global_filters .home-link .count .value")[0].innerText);
+        Franz.setBadge(allMessages);
+    }
 
-    Franz.setBadge(count);
-  }
-
-  Franz.loop(getMessages);
+    Franz.loop(getMessages);
 }
